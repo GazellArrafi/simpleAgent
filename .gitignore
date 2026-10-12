@@ -1,0 +1,19 @@
+# kredensial & konfigurasi lokal
+.env
+.env.*
+
+# database (skema, grants, docker, data cluster lokal)
+db/
+.pgdata/
+.pgdata.log
+
+# dokumentasi internal
+markdown/
+
+# data dummy & hasil runtime
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc

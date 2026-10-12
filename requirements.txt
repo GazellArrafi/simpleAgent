@@ -1,0 +1,11 @@
+langgraph>=1.0,<2.0
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-openai>=1.0,<2.0     # OpenAI & OpenRouter
+langchain-anthropic>=1.0,<2.0  # Claude (opsional)
+pydantic>=2.7
+python-dotenv>=1.0
+streamlit>=1.40
+pandas>=2.0
+httpx>=0.27                    # Telegram (opsional)
+psycopg[binary]>=3.2              # PostgreSQL (DATA_BACKEND=postgres)
